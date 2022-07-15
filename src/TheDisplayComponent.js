@@ -5,7 +5,7 @@ function TheDisplayComponent() {
     const context = useContext(NumberContext);
     return (
         <div className="half">
-            The data from the sibling component: {context.foo}.
+            The data from the sibling component: {context.changeThisNumber}.
         </div>
     );
 }

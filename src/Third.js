@@ -5,14 +5,14 @@ import { createContext, useState } from "react";
 export const NumberContext = createContext();
 
 export default function Third() {
-    const [foo, changeIt] = useState(1);
+    const [changeThisNumber, changeIt] = useState(1);
 
     function changeNumber() {
-        foo === 0 ? changeIt(1) : changeIt(0);
+        changeThisNumber === 0 ? changeIt(1) : changeIt(0);
     }
 
     return (
-        <NumberContext.Provider value={{ foo, changeNumber }}>
+        <NumberContext.Provider value={{ changeThisNumber, changeNumber }}>
             <TheButtonComponent />
             <TheDisplayComponent />
         </NumberContext.Provider>
