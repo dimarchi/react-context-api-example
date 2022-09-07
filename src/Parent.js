@@ -1,5 +1,5 @@
 import { createContext, useState } from 'react';
-import Child from './Child';
+import FirstWrapper from './FirstWarapper';
 
 const Sibling = createContext();
 
@@ -15,7 +15,7 @@ function Parent() {
             <p className='bluep'>This is a message from the parent.</p>
             <Sibling.Provider value={{message: 'The parent says hello.', greeting: greetParent}}>
                 <p className='greenp'>{ greeted }</p>
-                <Child />
+                <FirstWrapper />
             </Sibling.Provider>
         </div>
     )

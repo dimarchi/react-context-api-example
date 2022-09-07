@@ -8,7 +8,7 @@ function App() {
       <h1>Communication between components using ContextAPI</h1>
       <section>
         <h2>Parent to child and child to parent</h2>
-      <Parent />
+        <Parent />
       </section>
       <section>
         <h2>Child to child</h2>

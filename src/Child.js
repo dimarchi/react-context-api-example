@@ -8,7 +8,7 @@ function Child() {
                 {(val) => {
                     const {greeting, message} = val;
                     return(
-                        <div>
+                        <div className="noborder">
                             The parent's message to the child: <span className='bluep'>{message}</span>
                             <p>
                                 <button onClick={() => {greeting('The child greets the parent!')}}>Greet parent!</button>
