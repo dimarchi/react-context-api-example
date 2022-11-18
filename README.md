@@ -7,4 +7,4 @@ Three-way example:
 - Child to Parent
 - Child to Child
 
-There are three wrappers between the Parent component and the Child component the data is transferred to. They are, as their names suggest, merely wrappers that do not transfer data. This is to illustrate more concretely the use of the Context API. Visually each component has a border (apart from the `App.js`).
+There are three wrappers between the Parent component and the Child component the data is transferred to. They are, as their names suggest, merely wrappers that do not transfer data. This is to illutrate more concretely the use of the Context API. Visually each component has a border (apart from the `App.js`).
